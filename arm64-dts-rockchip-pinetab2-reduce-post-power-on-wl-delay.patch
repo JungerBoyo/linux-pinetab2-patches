@@ -1,0 +1,13 @@
+diff --git a/arch/arm64/boot/dts/rockchip/rk3566-pinetab2.dtsi b/arch/arm64/boot/dts/rockchip/rk3566-pinetab2.dtsi
+index 1bf686b9b169..9b6dd5cacac5 100644
+--- a/arch/arm64/boot/dts/rockchip/rk3566-pinetab2.dtsi
++++ b/arch/arm64/boot/dts/rockchip/rk3566-pinetab2.dtsi
+@@ -142,7 +142,7 @@ sdio_pwrseq: sdio-pwrseq {
+ 		pinctrl-names = "default";
+ 		pinctrl-0 = <&wifi_reset>;
+ 		reset-gpios = <&gpio3 RK_PD2 GPIO_ACTIVE_LOW>;
+-		post-power-on-delay-ms = <200>;
++		post-power-on-delay-ms = <15>;
+ 	};
+ 
+ 	speaker_amp: speaker-amplifier {
